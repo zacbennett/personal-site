@@ -8,21 +8,29 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
+  
+  <!-- CSS for Github -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
+
 </head>
 <body>
 <div id="contact-info-box">
           <div id="headshot-container">
-            <img id="headshot" src="./assets/headshot.jpg" alt="">
+            <img id="headshot" src="./assets/headshot.jpeg" alt="">
           </div>
           <div id="name-title-container">
             <h1>Zachary Bennett
             <h5>Frontend React Developer</h5>
-
+            <img class="contact-icon" src="./assets/linkedin.png" alt="">
+        <img class="contact-icon" src="./assets/github-logo.png" alt="">
 
             </h1>
           </div>
             <div id="contact-button-container">
-                <button class="contact-button btn btn-success">Contact Me!</button>
                 <button class="contact-button btn btn-success">Download Resume!</button>
           </div>
         </div>
@@ -40,26 +48,120 @@
       In my free time, I enjoy eating brunch, learning languages and playing videogames.
 
     </p></div>
-    <div class="info-container" id="projects-container"><h2>Projects:</h2></div>
-    <div class="info-container" id="git-container"><h2>Github:</h2></div>
+    <div class="info-container" id="projects-container"><h2>Projects:</h2>
+      <h6>Cherries</h6>
+      <ul>
+        <li>Tech Stack: JAMStack, React, JavaScript, Gatsby, GraphQL, Contentful</li>
+        <li>Created over 50+ different React components for an online subscription jewelry store with React-Gatsby </li>
+        <li>Connected website to Contentful API using graphQL to create dynamic web page content</li>
+        <li>Implemented searching and sorting of products based on name, price, tags and date added</li>
+        <li>Increased test coverage from 0% to 64%</li>
+        <li>Refactored CSS to be accessible on mobile devices</li>
+        <li>Collaborated on team of six, using extensive pair coding and tools</li>
+
+      </ul>
+        
+
+    </div>
+    <div class="info-container" id="git-container"><h2>Github:</h2>
+    <div class="calendar" id="calendar">    </div>
+    </div>
+    <div class="info-container" id="experience-container"><h2>Experience:</h2>
+      Teach for America |​ Math & Business Teacher ​ ​Aug 2015 - Jun 2018 
+    <br/>
+      Oakland, CA
+      <ul>
+
+       <li> Designed and taught curricula for high school math and business courses to achieve an average of 1.8 years of growth in mathematics, measured by the NWEA MAP test</li>
+      
+      
+        <li>Analyzed student data consistently by their mastery of Common Core State Standards in order to tailor future feedback to meet individual students’ needs</li>
+        <li>Built relationships quickly with 150+ diverse students with varying academic, linguistic & behavioral needs</li>
+
+      </ul>
+      Teach for America |​ Advisory Board Member​ ​Aug 2015 - Jun
+      2017​ ​
+    </br>
+      Oakland, CA
+
+      <ul>
+
+          <li>       Founded and managed grass roots committee to increase teacher voice & advocacy for new teachers
+            </li>
+         
+         
+           <li>      Recruited and managed a rotating group of 10 individuals to manage onboarding of new hires
+            </li>
+           <li>      Increased acceptance rates of teaching candidates from 70% to 90%
+            </li>
+           <li>      Provided direct feedback to TFA Oakland Director on decisions that affect teachers and students
+            </li>
+   
+         </ul>
+    
+    </div>
+    <!-- <div class="info-container" id="articles-container">
+      <h2>Articles:</h2>
+      <h6>Featured In:</h6>
+      <h6>Written:</h6>
+      </div> -->
   </div>
 
   <div id = "side-column">
     <div class="info-container" id="contact-container">
+      <h2>Contact</h2>
       <ul>
-
-        <li><img class="contact-icon" src="./assets/telephone-handle-silhouette.png" alt="">(530) 514-0682</li>
+        <li>San Francisco, CA</li>
         <li><img class="contact-icon" src="./assets/envelope.png" alt="">zacbennett0@gmail.com</li>
-        <li><img class="contact-icon" src="./assets/linkedin.png" alt="">zac-bennett</li>
-        <li><img class="contact-icon" src="./assets/github-logo.png" alt="">zacbennett</li>
+        
         <li><img class="contact-icon" src="./assets/globe.png" alt="">zacbennett.io</li>
       </ul>
 
     </div>
-    <div class="info-container" id="skills-container">MORE SKILLS HERE</div>
-    <div class="info-container" id="education-container">MORE education HERE</div>
+    <div class="info-container" id="skills-container">
+
+      <h2>Skills</h2>
+      <ul>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Flask</li>
+      </ul>
+      <ul>
+        <li>Redux</li>
+        <li>Node/Express</li>
+        <li>jQuery</li>
+        <li>PostgreSQL</li>
+        <li>GraphQL</li>
+      </ul>
+    </div>
+    <div class="info-container" id="education-container">
+      <h2>Education</h2>
+      <h5>Rithm School</h5> <span>Sept 2018 - Jan 2019</span>
+      <p>Rithm School is a 17 week in-person full stack web development 
+        bootcamp that teaches a variety of different tech stacks while 
+        completing over 30+ projects in addition to an internship with 
+        a startup.</p>
+      <h5>UC Berkeley</h5>
+      <span>Graduated 2015</span>
+      <p>B.A. Economics</p>
+      <h5>Middlebury Colege</h5>
+      <span>Summer 2018</span>
+      <p>Intensive Chinese Summer Language Program</p>
+      <h5>Loyola Marymount University</h5>
+      <span>2015 - 2016</span>
+
+      <p>Preliminary Teaching Certificate</p>
+    </div>
 
   </div>
 </div>
 </body>
+<script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+></script>
+<script>
+    GitHubCalendar(".calendar", "zacbennett",{summary_text: '', global_stats: false, responsive: false});
+</script>
 </html>
